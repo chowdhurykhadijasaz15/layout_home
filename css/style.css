@@ -1,0 +1,232 @@
+*header start*/
+.header{
+	/*border: 1px solid black;*/
+	background-color: white;
+	overflow:hidden;
+}
+.logo{
+	/*border: 1px solid red;*/
+	width:20%;
+	float: left;
+}
+.logo img{
+	width: 100%;
+}
+.menu{
+	/*border: 1px solid lime;*/
+	width: 70%;
+	float: right;
+	margin-top: 8px;
+}
+.menu ul{
+	overflow:hidden;
+	list-style: none;
+}
+.menu ul li{
+	float: left;
+}
+.menu ul li a{
+	font-family: sans-serif;
+    font-size: 13px;
+    color: black;
+    display: inline-block;
+    text-decoration: none;
+    padding: 0px 32px;
+    margin-left: 42px; 
+    transition: 0.5s;   
+}
+.menu ul li a:hover{
+	color:#800000; 
+}
+/*header end*/
+/*banner start*/
+
+.banner{
+	
+	/*border: 1px solid red;*/
+}
+.section_banner{
+	background-image:url(../images/banner2.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: right;
+	width:100%;
+	/*border: 1px solid blue;*/
+	overflow: hidden;
+
+}
+.b_content{
+	/*border: 1px solid lime;*/
+    width: 22%;
+    margin-top: 50px;
+    margin-bottom: 180px;
+    background-color: #00000085
+	
+}
+.b_content h2{
+	font-family: sans-serif;
+	font-size:22px; 
+	color: lime;
+	padding: 0px 22px;
+    margin: 9px 0px;
+   
+}
+.b_content p{
+	font-family: sans-serif;
+    font-size: 14px;
+    font-weight:300px; 
+    color: lime;
+    padding: 0px 18px;
+    margin: 0px 0px 20px;
+}
+.b_content button{
+	font-family: sans-serif;
+    font-size: 12px;
+    background-color: ;
+    border: none;
+    border-radius: 7px;
+    padding: 4px 15px;
+    margin: 9px 0px 15px 27px;
+    transition: 0.5s;
+}
+.b_content button a{
+	text-decoration: none;
+}
+.b_content button a:focus{
+	outline: none;
+}
+.b_content button a:hover{
+	color: #800000;
+}
+/*banner end*/
+/*service section start*/
+.service_more{
+	/*border: 1px solid red;*/
+	margin-top: 31px;
+
+}
+.service_others{
+	width:100%;
+	/*border: 1px solid blue;*/
+	overflow: hidden;
+}
+/*villas start*/
+.villas{
+	width: 33%;
+	/*border: 1px solid lime;*/
+	float: left;
+}
+.top{
+	margin-bottom: 30px;
+}
+.top h3{
+	font-family: sans-serif;
+    font-size: 17px;
+    color: #483D8B;
+    text-align: center;
+    margin-bottom: 5px;
+    text-transform: capitalize;
+}
+.top img{
+	margin-left: 90px;
+}
+.bottom{}
+.bottom h5{
+	margin-bottom: 4px;
+    font-family: sans-serif;
+    font-size: 14px;
+    color: #483D8B;
+    padding-left: 109px;
+    margin-top: 5px;
+
+}
+.vb{
+	margin-left: 68px;
+}
+.s_button{ 
+	font-family: sans-serif;
+	background-color:#2A4B7C;
+    border: none;
+    width: 63px;
+    height: 20px;
+    margin-left: 176px;
+    border-radius: 5px;
+    transition: 0.5s;
+    margin-top: 25px;
+}
+.s_button a{
+	font-family: sans-serif;
+    font-size: 13px;
+    text-decoration: none;
+    color: white;
+}
+/*villas end*/
+/*service start*/
+.service{
+	width: 33%;
+	/*border: 1px solid lime;*/
+	float: left;
+}
+.sb{
+	margin-left: 85px;
+}
+/*service end*/
+/*condos start*/
+.condos{
+	width: 33%;
+	/*border: 1px solid lime;*/
+	float: left;
+}
+.ch{
+	margin-left: 20px;
+}
+.cb{
+	margin-left: 67px;
+}
+/*condos end*/
+/*service section end*/
+/*footer start*/
+.footer{
+	margin-top: 50px;
+}
+.cmt{
+	width: 100%;
+	
+}
+.copyright{
+	margin-left: 480px;
+	margin-bottom: 0px;
+}
+.copyright h5{
+	color: #483D8B;
+	margin-bottom: 0px;
+}
+.copyright h5 a{
+	text-decoration: none;
+}
+.template{
+	margin-left: 487px;
+    margin-top: 0px;
+}
+.template h5{
+	color: #483D8B;
+	margin-top: 7px;
+}
+.template h5 a{
+	text-decoration: none;
+}
+.s_media{}
+.s_media ul{
+	    margin-left: 515px;
+	    list-style: none;
+}
+.s_media ul li{
+	    float: left;
+
+
+}
+.s_media ul li a{
+	    padding: 0px 13px;
+	    display: block;
+}
+/*footer end*/
